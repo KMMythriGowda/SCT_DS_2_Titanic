@@ -1,49 +1,53 @@
-# Titanic Dataset Analysis — Task 2
+Titanic Dataset Analysis — Task 2
 
-This repository contains my Titanic dataset analysis performed as part of my Data Science Internship.
+This repository contains my analysis of the Titanic dataset (Task 2). The goal is to explore, clean, and visualize the dataset to understand key factors influencing passenger survival.
 
-The goal of this task is to analyze the Titanic passenger dataset, clean it, explore relationships, and visualize survival patterns.
+📌 Objectives
+Load and explore the Titanic dataset
+Handle missing data (Age, Cabin, Embarked)
+Preprocess and clean the dataset
+Perform exploratory data analysis (EDA)
+Identify survival patterns based on:
+Gender
+Passenger class
+Age
+Fare
+Embarked port
+Visualize insights using Matplotlib and Seaborn
 
-## 📌 Objectives of the Analysis
-- Load and understand the Titanic dataset
-- Handle missing data (Age, Cabin, Embarked)
-- Clean and preprocess the dataset
-- Perform exploratory data analysis (EDA)
-- Understand survival patterns based on:
-  - Gender
-  - Passenger class
-  - Age
-  - Fare
-  - Embarked port
-- Visualize important insights using Matplotlib and Seaborn
+📊 Key Visualizations
+Survival count plot (Survived vs Not Survived)
+Survival by Gender
+Survival by Passenger Class (Pclass)
+Age distribution
+Fare distribution
+Correlation heatmap
+Survival by Embarked Port
+Survival by Age Groups
 
-## 📊 Key Visualizations
-- Survival count plot (Survived vs Not Survived)
-- Survival by gender
-- Survival by class (Pclass)
-- Age distribution
-- Fare distribution
-- Correlation heatmap
-- Survival by Embarked port
-- Survival by age groups
+🧹 Data Cleaning Steps
+Imputed missing Age values using median
+Filled missing Embarked values using mode
+Dropped Cabin column due to high missing values
+Converted categorical variables into numeric formats where required
 
-## 🧹 Data Cleaning Steps
-- Fill missing Age values using median
-- Fill missing Embarked values using mode
-- Drop Cabin column due to high missingness
-- Convert categorical variables into usable formats
+🛠️ Tools and Libraries Used
+Python
+Pandas
+NumPy
+Seaborn
+Matplotlib
+Google Colab
 
-## 🛠️ Tools and Libraries Used
-- Python  
-- Pandas  
-- NumPy  
-- Seaborn  
-- Matplotlib  
-- Google Colab  
-- Jupyter Notebook
+📁 Files Included
 
-## 📁 File Included
-- **SCT_DS_2.ipynb** — Contains full code, analysis, and visualizations.
+SCT_DS_2_Titanic.ipynb — Complete code, analysis, and visualizations
 
-## 📧 Contact
-Feel free to reach out if you’d like to discuss this project or collaborate!
+📦 Requirements
+Install dependencies using:
+
+pip install -r requirements.txt
+
+
+📧 Contact
+Feel free to reach out if you'd like to discuss this project or collaborate!
