@@ -76,4 +76,5 @@ Recommended versions (for reproducibility):
 5. Run each notebook cell sequentially
 
 **📧 Contact**
+
 Feel free to reach out if you'd like to discuss this project or collaborate!
